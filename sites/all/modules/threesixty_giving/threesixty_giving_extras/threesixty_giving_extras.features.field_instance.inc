@@ -1,17 +1,17 @@
 <?php
 /**
  * @file
- * 360_giving_extras.features.field_instance.inc
+ * threesixty_giving_extras.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function 360_giving_extras_field_default_field_instances() {
+function threesixty_giving_extras_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-group-field_360_giving_prefix'
-  $field_instances['node-group-field_360_giving_prefix'] = array(
+  // Exported field_instance: 'node-group-field_threesixty_giving_prefix'
+  $field_instances['node-group-field_threesixty_giving_prefix'] = array(
     'bundle' => 'group',
     'default_value' => array(
       0 => array(
@@ -36,7 +36,7 @@ function 360_giving_extras_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_360_giving_prefix',
+    'field_name' => 'field_threesixty_giving_prefix',
     'label' => '360 Giving prefix',
     'required' => 0,
     'settings' => array(

@@ -4,4 +4,4 @@
  * Code for the 360 Giving extras feature.
  */
 
-include_once '360_giving_extras.features.inc';
+include_once 'threesixty_giving_extras.features.inc';
