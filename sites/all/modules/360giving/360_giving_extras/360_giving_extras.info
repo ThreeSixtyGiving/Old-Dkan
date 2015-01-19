@@ -1,0 +1,17 @@
+name = 360 Giving extras
+description = Additions for the 360 Giving project.
+core = 7.x
+package = 360 Giving
+version = 7.x-1.0-alpha1
+project = 360_giving_extras
+dependencies[] = ctools
+dependencies[] = dkan_dataset_groups
+dependencies[] = features
+dependencies[] = field_validation
+dependencies[] = text
+features[ctools][] = field_validation:default_field_validation_rules:2
+features[features_api][] = api:2
+features[field_base][] = field_360_giving_prefix
+features[field_instance][] = node-group-field_360_giving_prefix
+features[field_validation_rule][] = 360_giving_org_prefix_validation
+project path = sites/all/modules/360giving

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the 360 Giving extras feature.
+ */
+
+include_once '360_giving_extras.features.inc';
