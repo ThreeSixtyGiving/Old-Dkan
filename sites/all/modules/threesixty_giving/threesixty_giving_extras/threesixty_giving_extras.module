@@ -5,3 +5,8 @@
  */
 
 include_once 'threesixty_giving_extras.features.inc';
+
+function threesixty_giving_extras_admin_paths_alter(&$paths) {
+    // Treat all user pages as not administrative.
+    $paths['user/*'] = FALSE;
+}
