@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ThreeSixty Giving Dataset feature.
+ */
+
+include_once 'threesixty_giving_dataset.features.inc';

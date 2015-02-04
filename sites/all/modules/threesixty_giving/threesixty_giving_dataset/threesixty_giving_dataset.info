@@ -1,0 +1,12 @@
+name = ThreeSixty Giving Dataset
+description = Overrides for Dataset Feature.
+core = 7.x
+package = 360 Giving
+version = 7.x-1.0-alpha1
+project = threesixty_giving_dataset
+dependencies[] = dkan_dataset_content_types
+features[features_api][] = api:2
+features[features_override_items][] = field_instance.node-dataset-field_license
+features[features_overrides][] = field_instance.node-dataset-field_license.default_value|0|value
+features[features_overrides][] = field_instance.node-dataset-field_license.widget|settings|available_options
+project path = sites/all/modules/threesixty_giving
