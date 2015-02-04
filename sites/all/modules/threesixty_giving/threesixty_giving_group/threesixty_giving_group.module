@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ThreeSixty Giving Group feature.
+ */
+
+include_once 'threesixty_giving_group.features.inc';
